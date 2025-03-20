@@ -1,0 +1,13 @@
+{
+    "email":"Your Email",
+    "password":"Password",
+    "signin":"Sign In",
+    "Category":"Category",
+    "category_info": "Category Information",
+    "name": "Name",
+    "create": "Create",
+    "cancel": "Cancel",
+    "Delete":"Delete",
+    "delete_msg":"Item has been deleted"
+  }
+  
