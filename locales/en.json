@@ -7,7 +7,8 @@
     "name": "Name",
     "create": "Create",
     "cancel": "Cancel",
+    "create_msg":"تم الانشاء بنجاح",
     "Delete":"Delete",
-    "delete_msg":"Item has been deleted"
+    "delete_msg":"Item has been deleted successfully"
   }
   
