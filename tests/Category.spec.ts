@@ -1,9 +1,8 @@
 import { test } from '@playwright/test';
 import { login, addCategory, searchCategory, deleteCategory } from './categoryFunctions.ts';
 
-test.describe('Category Automation Test (Arabic)', () => {
-    test('Add, Search, and Delete Category - Arabic', async ({ page }) => {
-        const data = require('../locales/ar.json'); // Load Arabic localization
+test.describe('Category Automation Test', () => {
+    test('Add, Search, and Delete Category', async ({ page }) => {
 
         const adminEmail = "admin@admin.com";
         const adminPassword = "Default@123";
@@ -13,7 +12,6 @@ test.describe('Category Automation Test (Arabic)', () => {
         ];
         
         await login(page, adminEmail, adminPassword);
-        await page.pause();
         await addCategory(page, inputs);
         await searchCategory(page, inputs);
         await deleteCategory(page, inputs);
